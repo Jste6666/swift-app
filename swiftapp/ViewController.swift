@@ -23,9 +23,7 @@ class ViewController: UIViewController {
         if addition {
         theLabel.text = "Answer is... \(Double(textOne.text!)! + Double(textTwo.text!)!)"
         
-        } else {
-            theLabel.text = "Answer is... \(Double(textOne.text!)! - Double(textTwo.text!)!)"        }
-    }
+        } 
     
     override func viewDidLoad() {
         super.viewDidLoad()
